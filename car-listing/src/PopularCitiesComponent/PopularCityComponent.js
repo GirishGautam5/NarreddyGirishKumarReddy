@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles.css"
+import "./PopularCitystyles.css"
 
 const PopularCityComponent = ()=>{
     return(

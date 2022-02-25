@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "./Footerstyles.css";
 import { SocialMediaIconsReact } from "social-media-icons-react";
 import MobileStoreButton from "react-mobile-store-button";
 

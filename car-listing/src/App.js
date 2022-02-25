@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter, Link } from "react-router-dom";
 import FooterComponent from "./FooterComponent/FooterComponent";
 import PopularCityComponent from "./PopularCitiesComponent/PopularCityComponent";
+import SellingCarComponent from "./SellingCarComponent/SellingCarComponent";
 
 function App() {
   return (
@@ -38,15 +39,14 @@ function App() {
         </header>
         <main className="main">
           <div className="content">
+            <SellingCarComponent />
             <PopularCityComponent />
           </div>
-          <h1>Popular Cities</h1>
         </main>
         <footer className="footer-area">
           <FooterComponent />
         </footer>
       </div>
-      <h1>Welcome Ract</h1>
     </BrowserRouter>
   );
 }
