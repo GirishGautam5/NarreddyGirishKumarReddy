@@ -1,5 +1,7 @@
 import React from "react";
 import "./styles.css";
+import { SocialMediaIconsReact } from "social-media-icons-react";
+import MobileStoreButton from "react-mobile-store-button";
 
 const FooterComponent = () => {
   return (
@@ -7,10 +9,98 @@ const FooterComponent = () => {
       <div className="row">
         <div className="col col-md-3 col-sm-3 col-xl-3">
           <h3 className="heading">Keep in Touch</h3>
+          <ul className="social-ul">
+            <li className="social-li">
+              <SocialMediaIconsReact
+                icon="twitter"
+                iconColor="white"
+                borderColor="none"
+                borderWidth="0"
+                roundness="5px"
+                url="https://some-website.com/my-social-media-url"
+                size="30px"
+                iconSize="30"
+              />
+            </li>
+            <li className="social-li">
+              <SocialMediaIconsReact
+                icon="linkedin"
+                iconColor="white"
+                borderColor="none"
+                borderWidth="0"
+                roundness="5px"
+                url="https://some-website.com/my-social-media-url"
+                size="30px"
+                iconSize="30"
+              />
+            </li>
+            <li className="social-li">
+              <SocialMediaIconsReact
+                icon="facebook"
+                iconColor="white"
+                borderColor="none"
+                borderWidth="0"
+                roundness="5px"
+                url="https://some-website.com/my-social-media-url"
+                size="30px"
+                iconSize="5"
+              />
+            </li>
+            <li className="social-li">
+              <SocialMediaIconsReact
+                borderStyle="solid"
+                icon="youtube-play"
+                iconColor="white"
+                borderColor="none"
+                borderWidth="0"
+                roundness="5px"
+                url="https://some-website.com/my-social-media-url"
+                size="30px"
+                iconSize="30"
+              />
+            </li>
+            <li className="social-li">
+              <SocialMediaIconsReact
+                borderStyle="solid"
+                icon="instagram"
+                iconColor="white"
+                borderColor="none"
+                borderWidth="0"
+                roundness="5px"
+                url="https://some-website.com/my-social-media-url"
+                size="30px"
+                iconSize="30"
+              />
+            </li>
+          </ul>
           <p className="paragraph">
             Experience CARS24 App on Mobile
             <span>Powered by CARS24</span>
           </p>
+          <div className="row">
+            <a href="images" className="col-6">
+              <span className="span-store">
+                <MobileStoreButton
+                  className="image-fluid"
+                  store="android"
+                  url="https://play.google.com"
+                  linkProps={{ title: "Android Store Button" }}
+                />
+              </span>
+            </a>
+            <a href="images" className="col-6">
+              <span className="span-store">
+                <MobileStoreButton
+                  className="image-fluid ios-store"
+                  width="100%"
+                  height="100%"
+                  store="ios"
+                  url="https://itunes.apple.com/us/app/all-of-the-lights/id959389722?mt=8"
+                  linkProps={{ title: "iOS Store Button" }}
+                />
+              </span>
+            </a>
+          </div>
         </div>
         <div className="col col-md-3 col-sm-3 col-xl-3">
           <h3 className="heading">Useful Links</h3>
