@@ -53,3 +53,9 @@ body{
   color: #fff;
   background: linear-gradient(257.39deg, #0c1f2f, #12406d);
 }
+.main{
+  grid-area: main;
+  }
+  .content-margined{
+    margin: 1rem;
+  }

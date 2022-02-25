@@ -1,14 +1,15 @@
-
-import './App.css';
+import "./App.css";
 import { BrowserRouter, Link } from "react-router-dom";
-import FooterComponent from './FooterComponent/FooterComponent';
+import FooterComponent from "./FooterComponent/FooterComponent";
+import PopularCityComponent from "./PopularCitiesComponent/PopularCityComponent";
+
 function App() {
   return (
     <BrowserRouter>
-      <div className='grid-container'>
-        <header className='header'>
-          <div className='side-bar'>
-          <button>&#9776;</button>
+      <div className="grid-container">
+        <header className="header">
+          <div className="side-bar">
+            <button>&#9776;</button>
           </div>
           <div className="app-logo">
             <Link to="/">
@@ -35,17 +36,18 @@ function App() {
             </Link>
           </div>
         </header>
-        <main>
-        <h1>Popular Cities</h1>
+        <main className="main">
+          <div className="content">
+            <PopularCityComponent />
+          </div>
+          <h1>Popular Cities</h1>
         </main>
         <footer className="footer-area">
           <FooterComponent />
         </footer>
       </div>
-     <h1>Welcome Ract</h1>
-  
+      <h1>Welcome Ract</h1>
     </BrowserRouter>
-   
   );
 }
 
