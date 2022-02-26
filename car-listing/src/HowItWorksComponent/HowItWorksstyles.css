@@ -1,13 +1,4 @@
-@media (min-width:1200px){
-    .container-fluid {
-        max-width: 100%;
-        padding: 0 96px;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-       
-    }
-}
+/* */
 .works-area {
     margin-bottom: 100px;
 }
