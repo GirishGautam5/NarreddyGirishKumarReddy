@@ -5,6 +5,7 @@ import PopularCityComponent from "./PopularCitiesComponent/PopularCityComponent"
 import SellingCarComponent from "./SellingCarComponent/SellingCarComponent";
 import HowItWorksComponent from "./HowItWorksComponent/HowItWorksComponent";
 import FeaturedCarsComponent from "./FeaturedCarsComponent/FeaturedCarsComponent";
+import CarouselComponent from "./CarouselComponent/CarouselComponent";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
         </header>
         <main className="main">
           <div className="content">
+            <CarouselComponent />
             <FeaturedCarsComponent />
             <HowItWorksComponent />
             <SellingCarComponent />
