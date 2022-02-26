@@ -1,4 +1,17 @@
 .Carousel-area {
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
+    display: 'block';
+     width: 100%;
 }
+.Carousel-h2 {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: #465166;
+    font-size: 14px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+  .carousel-part {
+      margin-top: 30px;
+  }
