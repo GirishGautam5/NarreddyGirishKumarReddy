@@ -5,8 +5,11 @@
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 100px;
+       
     }
+}
+.works-area {
+    margin-bottom: 100px;
 }
 .heading2 {
     font-size: 24px;
@@ -14,6 +17,7 @@
     font-weight: 500;
     line-height: 32px;
     color: #465166;
+    text-transform: uppercase;
 }
 .works-ul {
     margin: 48px 0 0;

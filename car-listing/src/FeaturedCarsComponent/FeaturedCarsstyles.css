@@ -1,0 +1,131 @@
+.feature-area {
+  margin-bottom: 100px;
+}
+.heading2 {
+  text-transform: uppercase;
+}
+.featured-ul {
+  margin: 48px 0 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+.featured-ul li {
+  border-radius: 20px;
+  list-style: none;
+  background: #fff;
+  padding: 0 0 17px;
+  width: 33.5%;
+  margin-right: 24px;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+  -webkit-box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+  text-decoration: none;
+}
+.feature-a {
+  margin-bottom: 30px;
+  background: #fff;
+  position: relative;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  color: inherit;
+  overflow: hidden;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.feature-img {
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border-style: none;
+}
+.feature-text {
+  padding: 20px;
+}
+.title-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-align: center;
+  -webkit-box-pack: justify;
+}
+.title-part {
+  flex: 1;
+  -webkit-box-flex: 1;
+}
+.feature-h2 {
+  margin-bottom: 0;
+  font-weight: 700;
+  color: #465166;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration: none;
+}
+.feature-p {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #465166;
+}
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+.km-ul {
+  margin-bottom: 16px;
+  padding: 15px 0;
+  display: flex;
+  border-bottom: 1px solid #dde5eb;
+  list-style: none;
+}
+.km-li {
+  margin-right: 18px;
+  max-width: 107px;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  height: 30px;
+  background: #ebf4f9;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 30px;
+  text-align: center;
+  color: #465166;
+  list-style: none;
+}
+.price {
+  
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-align: center;
+}
+.down-payment {
+  display: flex;
+  align-items: center;
+}
+.total-price {
+  text-align: right;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+.strong-price {
+  font-size: 20px;
+  line-height: 22px;
+  color: #ef7e2b;
+  font-weight: 700;
+}
+.span-price {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #465166;
+}
+.span-payment{
+    margin-top: 15px;
+}
