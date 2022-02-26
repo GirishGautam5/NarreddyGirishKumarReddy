@@ -3,6 +3,7 @@ import { BrowserRouter, Link } from "react-router-dom";
 import FooterComponent from "./FooterComponent/FooterComponent";
 import PopularCityComponent from "./PopularCitiesComponent/PopularCityComponent";
 import SellingCarComponent from "./SellingCarComponent/SellingCarComponent";
+import HowItWorksComponent from "./HowItWorksComponent/HowItWorksComponent";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         </header>
         <main className="main">
           <div className="content">
+            <HowItWorksComponent />
             <SellingCarComponent />
             <PopularCityComponent />
           </div>
